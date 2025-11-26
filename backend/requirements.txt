@@ -1,0 +1,44 @@
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+
+# Data Validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+asyncpg==0.29.0
+redis==5.0.1
+
+# Web3 & Blockchain
+web3==6.11.3
+eth-abi==4.2.1
+eth-account==0.10.0
+
+# HTTP Clients
+aiohttp==3.9.1
+httpx==0.25.2
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.2
+scipy==1.11.4
+
+# Graph Analysis
+networkx==3.2.1
+
+# Caching
+aiocache==0.12.2
+
+# Utilities
+python-dotenv==1.0.0
+python-dateutil==2.8.2
+
+# Monitoring & Logging
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0

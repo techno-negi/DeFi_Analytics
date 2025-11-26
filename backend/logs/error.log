@@ -1,0 +1,2 @@
+{"timestamp": "2025-11-26T07:22:33.430933", "level": "ERROR", "logger": "src.storage.redis_manager", "message": "Failed to connect to Redis: Error 111 connecting to localhost:6379. 111.", "module": "redis_manager", "function": "connect", "line": 49}
+{"timestamp": "2025-11-26T07:27:12.732597", "level": "ERROR", "logger": "src.storage.redis_manager", "message": "Failed to connect to Redis: Error 111 connecting to localhost:6379. 111.", "module": "redis_manager", "function": "connect", "line": 49}

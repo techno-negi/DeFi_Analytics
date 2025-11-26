@@ -1,0 +1,8 @@
+{"timestamp": "2025-11-26T07:22:33.419805", "level": "INFO", "logger": "root", "message": "Logging configuration completed", "module": "logging_config", "function": "setup_logging", "line": 97}
+{"timestamp": "2025-11-26T07:22:33.429190", "level": "INFO", "logger": "root", "message": "Logging configuration completed", "module": "logging_config", "function": "setup_logging", "line": 97}
+{"timestamp": "2025-11-26T07:22:33.429928", "level": "INFO", "logger": "src.core.service_manager", "message": "Initializing services...", "module": "service_manager", "function": "initialize", "line": 53}
+{"timestamp": "2025-11-26T07:22:33.430913", "level": "ERROR", "logger": "src.storage.redis_manager", "message": "Failed to connect to Redis: Error 111 connecting to localhost:6379. 111.", "module": "redis_manager", "function": "connect", "line": 49}
+{"timestamp": "2025-11-26T07:27:12.721496", "level": "INFO", "logger": "root", "message": "Logging configuration completed", "module": "logging_config", "function": "setup_logging", "line": 97}
+{"timestamp": "2025-11-26T07:27:12.730829", "level": "INFO", "logger": "root", "message": "Logging configuration completed", "module": "logging_config", "function": "setup_logging", "line": 97}
+{"timestamp": "2025-11-26T07:27:12.731593", "level": "INFO", "logger": "src.core.service_manager", "message": "Initializing services...", "module": "service_manager", "function": "initialize", "line": 53}
+{"timestamp": "2025-11-26T07:27:12.732575", "level": "ERROR", "logger": "src.storage.redis_manager", "message": "Failed to connect to Redis: Error 111 connecting to localhost:6379. 111.", "module": "redis_manager", "function": "connect", "line": 49}

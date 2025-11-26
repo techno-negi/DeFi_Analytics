@@ -1,0 +1,39 @@
+.network-graph {
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  padding: 24px;
+  overflow: hidden;
+}
+
+.network-graph svg {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: var(--bg-tertiary);
+}
+
+.network-graph circle {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.network-graph circle:hover {
+  stroke-width: 3;
+  filter: brightness(1.2);
+}
+
+.network-graph text {
+  pointer-events: none;
+  user-select: none;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+
+.network-graph line {
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .network-graph {
+    padding: 16px;
+  }
+}
